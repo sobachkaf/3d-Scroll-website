@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D | Scroll</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/main.js" type="module" defer></script>
+</head>
+<body>
+
+    <div class="container">
+		<section class="gallery">
+
+			<div class="frame">
+				<div class="frame__content">
+					<h2>Beautiful World</h2>
+				</div>
+			</div>
+
+            <div class="frame visible-mobile"></div>
+
+			<div class="frame ">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left frame-media_left-center" style="background-image: url(./images/1.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame frame_bg hidden-mobile">
+				<div class="frame__content">
+					<video class="frame-media frame-media_right" src="./video/video_optimized.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+            <div class="frame frame_bg visible-mobile">
+				<div class="frame__content">
+					<video class="frame-media" src="./video/video_optimized.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content text-right">
+					<h3>Pure planet</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur elit adipisicing. Nemo fugit, rerum dolorem assumenda consequatur dicta error iure laboriosam temporibus.</p>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left" style="background-image: url(./images/2.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(./images/3.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content text-left">
+					<h3>Ask the Mountains</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur elit. Rerum dolorem assumenda consequatur dicta error iure laboriosam temporibus omnis quae eaque aliquam esse unde accusamus dolores non soluta.</p>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+			<div class="frame"></div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(./images/4.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content">
+					<video class="frame-media" src="./video/video_optimized.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+		</section>
+	</div>
+
+	<img class="soundbutton paused" src="images/sound.gif" alt="Alt">
+	<audio class="audio" src="./video/ambient.mp3" loop></audio>
+
+
+</body>
+</html>
