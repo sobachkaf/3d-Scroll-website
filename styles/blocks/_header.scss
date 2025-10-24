@@ -103,8 +103,12 @@ video.frame-media_left {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 24px;
+	width: rem(48);
 	transition: .25s ease;
+
+    @include mobile{
+        width: rem(24);
+    }
 }
 .soundbutton.paused {
 	opacity: .25;

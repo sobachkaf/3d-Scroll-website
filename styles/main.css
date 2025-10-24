@@ -559,8 +559,13 @@ video.frame-media_left {
   bottom: 5vh;
   right: 5vw;
   cursor: pointer;
-  width: 24px;
+  width: 3rem;
   transition: 0.25s ease;
+}
+@media (width <= 47.99875rem) {
+  .soundbutton {
+    width: 1.5rem;
+  }
 }
 
 .soundbutton.paused {
